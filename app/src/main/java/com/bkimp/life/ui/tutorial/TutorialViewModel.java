@@ -10,7 +10,7 @@ public class TutorialViewModel extends ViewModel {
 
     public TutorialViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is gallery fragment");
+        mText.setValue("This is notification fragment");
     }
 
     public LiveData<String> getText() {
