@@ -44,8 +44,8 @@ dependencies {
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core
 
-    implementation('org.pytorch:pytorch_android_lite:1.10.0')
-    implementation('org.pytorch:pytorch_android_torchvision_lite:1.10.0')
+    implementation('org.pytorch:pytorch_android_lite:1.13.1')
+    implementation('org.pytorch:pytorch_android_torchvision_lite:1.13.1')
 
     def camerax_version = '1.4.0'
     implementation("androidx.camera:camera-core:${camerax_version}")
