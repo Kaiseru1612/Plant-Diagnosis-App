@@ -13,6 +13,7 @@
     <string name="title_capture">Capture</string>
 
     <string name="menu_home">Home</string>
+    <string name="menu_library">Library</string>
     <string name="menu_tutorial">Tutorial</string>
     <string name="menu_contactus">Contact Us</string>
 </resources>
