@@ -8,6 +8,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.bkimp.life.R;
 import com.google.gson.Gson;
+
+import java.util.ArrayList;
 import java.util.Map;
 
 import android.content.Intent;
@@ -15,53 +17,163 @@ import android.os.Bundle;
 import android.widget.ListView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.bkimp.life.R;
 import com.google.gson.Gson;
+import com.google.gson.JsonSyntaxException;
 import com.google.gson.reflect.TypeToken;
+import java.util.List;
+import java.util.Map;
+
+//public class TreatmentDetailActivity extends AppCompatActivity {
+//    @Override
+//    protected void onCreate(Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+//        setContentView(R.layout.activity_treatment_detail);
+//
+//        // Get the JSON data from the Intent
+//        String json = getIntent().getStringExtra("enTreatments");
+//
+//        if (json != null && !json.isEmpty()) {
+//            try {
+//                // Deserialize the JSON into the TreatmentData object
+//                Gson gson = new Gson();
+//                TreatmentData treatmentData = gson.fromJson(json, TreatmentData.class);
+//
+//                // Log the entire treatment data to verify
+//                Log.d("TreatmentDetailActivity", "Received Treatment Data: " + treatmentData);
+//
+//                // Now you can access the treatments
+//                if (treatmentData != null && treatmentData.getTreatments() != null) {
+//                    for (Treatment treatment : treatmentData.getTreatments()) {
+//                        // Log category
+//                        Log.d("Treatment", "Category: " + treatment.getCategory());
+//
+//                        // Log EN Treatment (Ensure TreatmentDetails has a toString method)
+//                        TreatmentDetail enTreatment = (TreatmentDetail) treatment.getEn();
+//                        if (enTreatment != null) {
+//                            Log.d("Treatment", "EN Treatment: " + enTreatment);
+//                        } else {
+//                            Log.e("Treatment", "EN Treatment is null");
+//                        }
+//                    }
+//                } else {
+//                    Log.e("TreatmentDetailActivity", "Treatments list is null");
+//                }
+//            } catch (JsonSyntaxException e) {
+//                Log.e("TreatmentDetailActivity", "Error parsing JSON", e);
+//            }
+//        } else {
+//            Log.e("TreatmentDetailActivity", "No treatment data available");
+//        }
+//    }
+//}
+//public class TreatmentDetailActivity extends AppCompatActivity {
+//    @Override
+//    protected void onCreate(Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+//        setContentView(R.layout.activity_treatment_detail);
+//
+//        // Get the JSON data from the Intent
+//        String json = getIntent().getStringExtra("enTreatments");
+//
+//        if (json != null && !json.isEmpty()) {
+//            try {
+//                // Deserialize the JSON into the TreatmentData object
+//                Gson gson = new Gson();
+//                TreatmentData treatmentData = gson.fromJson(json, TreatmentData.class);
+//
+//                // Log the entire treatment data to verify
+//                Log.d("TreatmentDetailActivity", "Received Treatment Data: " + treatmentData);
+//
+//                // Now you can access the treatments
+//                if (treatmentData != null && treatmentData.getTreatments() != null) {
+//                    for (Treatment treatment : treatmentData.getTreatments()) {
+//                        // Log category
+//                        Log.d("Treatment", "Category: " + treatment.getCategory());
+//
+//                        // Log EN Treatment (Ensure TreatmentDetails has a toString method)
+//                        TreatmentDetails enTreatment = (TreatmentDetails) treatment.getEn();
+//                        if (enTreatment != null) {
+//                            Log.d("Treatment", "EN Treatment: " + enTreatment);
+//                        } else {
+//                            Log.e("Treatment", "EN Treatment is null");
+//                        }
+//                    }
+//                } else {
+//                    Log.e("TreatmentDetailActivity", "Treatments list is null");
+//                }
+//            } catch (JsonSyntaxException e) {
+//                Log.e("TreatmentDetailActivity", "Error parsing JSON", e);
+//            }
+//        } else {
+//            Log.e("TreatmentDetailActivity", "No treatment data available");
+//        }
+//    }
+//}
+
+import android.os.Bundle;
+import android.util.Log;
+import androidx.appcompat.app.AppCompatActivity;
+import com.google.gson.Gson;
+import com.google.gson.JsonSyntaxException;
+import java.util.List;
+
+import android.os.Bundle;
+import android.util.Log;
+import androidx.appcompat.app.AppCompatActivity;
+import com.google.gson.Gson;
+import com.google.gson.JsonSyntaxException;
+import com.google.gson.reflect.TypeToken;
+import java.lang.reflect.Type;
 import java.util.List;
 import java.util.Map;
 
 public class TreatmentDetailActivity extends AppCompatActivity {
 
-    private ListView listView;
-    private DiseaseAdapter diseaseAdapter;
-    private Map<String, Disease> diseaseMap;
+    private RecyclerView recyclerView;
+    private List<Map<String, Disease>> diseasesList;
 
-    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_treatment_detail);
 
-        listView = findViewById(R.id.listView); // Your ListView in the layout
+        // Initialize RecyclerView
+        recyclerView = findViewById(R.id.recyclerView);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this)); // Use a vertical layout
 
-        // Get the category JSON string passed from the previous activity
-        String jsonCategory = getIntent().getStringExtra("category");
-        Log.d("TreatmentDetailActivity", "Category: " + jsonCategory);
-        if (jsonCategory == null) {
-            Toast.makeText(this, "No data received", Toast.LENGTH_SHORT).show();
-            return;
+        // Get the JSON data from the Intent
+        String json = getIntent().getStringExtra("enTreatments");
+
+        if (json != null && !json.isEmpty()) {
+            try {
+                // Deserialize JSON into List<Map<String, Disease>>
+                Gson gson = new Gson();
+                Type listType = new TypeToken<List<Map<String, Disease>>>() {}.getType();
+                diseasesList = gson.fromJson(json, listType);
+
+                if (diseasesList != null && !diseasesList.isEmpty()) {
+                    // Create and set the adapter with the data
+                    TreatmentAdapter adapter = new TreatmentAdapter(diseasesList);
+                    recyclerView.setAdapter(adapter);
+                } else {
+                    Log.e("TreatmentDetailActivity", "Diseases list is empty or null");
+                    Toast.makeText(this, "No diseases data available", Toast.LENGTH_SHORT).show();
+                }
+
+            } catch (JsonSyntaxException e) {
+                Log.e("TreatmentDetailActivity", "Error parsing JSON", e);
+            }
+        } else {
+            Log.e("TreatmentDetailActivity", "No treatment data available");
+            Toast.makeText(this, "No treatment data available", Toast.LENGTH_SHORT).show();
         }
-
-        // Deserialize the Category object
-        Gson gson = new Gson();
-        Category category = gson.fromJson(jsonCategory, Category.class);
-
-        // Assuming you are displaying "EarlyBlight" treatments, you can change this based on your need
-        diseaseMap = category.getEn();
-
-        // For now, let's check if EarlyBlight exists
-        Disease disease = diseaseMap.get("EarlyBlight");
-
-        if (disease == null) {
-            Toast.makeText(this, "Disease not found", Toast.LENGTH_SHORT).show();
-            return;
-        }
-
-        // Set up the adapter to display the disease treatments
-        diseaseAdapter = new DiseaseAdapter(this, disease);
-        listView.setAdapter(diseaseAdapter);
     }
 }
+
+
 
 

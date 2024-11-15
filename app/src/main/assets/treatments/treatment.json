@@ -3,399 +3,443 @@
     "Treatments": [
         {
             "category": "Tomato",
-            "en": {
-                "BacterialSpot": {
-                    "Description": "Bacterial spot on tomatoes causes dark, water-soaked spots on leaves, stems, and fruits, reducing yield and plant health.",
-                    "OrganicTreatment": {
-                        "longContent": "Apply copper-based sprays to manage bacterial spot. These sprays help reduce the spread of bacteria and protect the foliage.",
-                        "shortContent": "Use copper-based sprays regularly.",
-                        "title": "Copper Sprays for Bacterial Spot"
-                    },
-                    "ConventionalTreatment": {
-                        "longContent": "Use bactericides containing fixed copper compounds. Apply according to instructions to manage bacterial infections effectively.",
-                        "shortContent": "Apply copper bactericides.",
-                        "title": "Fixed Copper Bactericides"
-                    },
-                    "BiologicalTreatment": {
-                        "longContent": "Introduce beneficial bacteria like Bacillus subtilis to outcompete harmful bacteria causing bacterial spot.",
-                        "shortContent": "Use Bacillus subtilis for control.",
-                        "title": "Biological Control with Bacillus subtilis"
+            "en": [
+                {
+                    "BacterialSpot": {
+                        "Description": "Bacterial spot on tomatoes causes dark, water-soaked spots on leaves, stems, and fruits, reducing yield and plant health.",
+                        "OrganicTreatment": {
+                            "longContent": "Apply copper-based sprays to manage bacterial spot. These sprays help reduce the spread of bacteria and protect the foliage.",
+                            "shortContent": "Use copper-based sprays regularly.",
+                            "title": "Copper Sprays for Bacterial Spot"
+                        },
+                        "ConventionalTreatment": {
+                            "longContent": "Use bactericides containing fixed copper compounds. Apply according to instructions to manage bacterial infections effectively.",
+                            "shortContent": "Apply copper bactericides.",
+                            "title": "Fixed Copper Bactericides"
+                        },
+                        "BiologicalTreatment": {
+                            "longContent": "Introduce beneficial bacteria like Bacillus subtilis to outcompete harmful bacteria causing bacterial spot.",
+                            "shortContent": "Use Bacillus subtilis for control.",
+                            "title": "Biological Control with Bacillus subtilis"
+                        }
                     }
                 },
-                "EarlyBlight": {
-                    "Description": "Early blight in tomatoes causes concentric ring spots on leaves and stems, leading to defoliation and lower yields.",
-                    "OrganicTreatment": {
-                        "longContent": "Apply neem oil or sulfur-based fungicides early in the season to prevent early blight. Mulching can reduce soil-to-plant transfer of the pathogen.",
-                        "shortContent": "Apply neem oil or sulfur fungicides.",
-                        "title": "Neem Oil for Early Blight"
-                    },
-                    "ConventionalTreatment": {
-                        "longContent": "Use fungicides containing chlorothalonil or mancozeb, especially during wet conditions, to prevent early blight spread.",
-                        "shortContent": "Apply chlorothalonil fungicides.",
-                        "title": "Chlorothalonil-Based Fungicides"
-                    },
-                    "BiologicalTreatment": {
-                        "longContent": "Apply Trichoderma harzianum to the soil or foliage to reduce early blight by inhibiting fungal pathogens.",
-                        "shortContent": "Use Trichoderma for blight control.",
-                        "title": "Biological Control with Trichoderma"
+                {
+                    "EarlyBlight": {
+                        "Description": "Early blight in tomatoes causes concentric ring spots on leaves and stems, leading to defoliation and lower yields.",
+                        "OrganicTreatment": {
+                            "longContent": "Apply neem oil or sulfur-based fungicides early in the season to prevent early blight. Mulching can reduce soil-to-plant transfer of the pathogen.",
+                            "shortContent": "Apply neem oil or sulfur fungicides.",
+                            "title": "Neem Oil for Early Blight"
+                        },
+                        "ConventionalTreatment": {
+                            "longContent": "Use fungicides containing chlorothalonil or mancozeb, especially during wet conditions, to prevent early blight spread.",
+                            "shortContent": "Apply chlorothalonil fungicides.",
+                            "title": "Chlorothalonil-Based Fungicides"
+                        },
+                        "BiologicalTreatment": {
+                            "longContent": "Apply Trichoderma harzianum to the soil or foliage to reduce early blight by inhibiting fungal pathogens.",
+                            "shortContent": "Use Trichoderma for blight control.",
+                            "title": "Biological Control with Trichoderma"
+                        }
                     }
                 },
-                "LateBlight": {
-                    "Description": "Late blight causes dark, water-soaked spots on leaves and stems, quickly spreading in cool, wet conditions.",
-                    "OrganicTreatment": {
-                        "longContent": "Copper sprays help control the early stages of late blight. Apply regularly during cool, wet weather.",
-                        "shortContent": "Use copper sprays.",
-                        "title": "Copper Sprays for Late Blight"
-                    },
-                    "ConventionalTreatment": {
-                        "longContent": "Use systemic fungicides containing metalaxyl or chlorothalonil. Follow the label instructions closely.",
-                        "shortContent": "Apply metalaxyl fungicides.",
-                        "title": "Metalaxyl for Late Blight Control"
-                    },
-                    "BiologicalTreatment": {
-                        "longContent": "Introduce beneficial fungi like Trichoderma viride to reduce pathogen activity and protect plants.",
-                        "shortContent": "Use Trichoderma viride.",
-                        "title": "Biological Control with Trichoderma viride"
+                {
+                    "LateBlight": {
+                        "Description": "Late blight causes dark, water-soaked spots on leaves and stems, quickly spreading in cool, wet conditions.",
+                        "OrganicTreatment": {
+                            "longContent": "Copper sprays help control the early stages of late blight. Apply regularly during cool, wet weather.",
+                            "shortContent": "Use copper sprays.",
+                            "title": "Copper Sprays for Late Blight"
+                        },
+                        "ConventionalTreatment": {
+                            "longContent": "Use systemic fungicides containing metalaxyl or chlorothalonil. Follow the label instructions closely.",
+                            "shortContent": "Apply metalaxyl fungicides.",
+                            "title": "Metalaxyl for Late Blight Control"
+                        },
+                        "BiologicalTreatment": {
+                            "longContent": "Introduce beneficial fungi like Trichoderma viride to reduce pathogen activity and protect plants.",
+                            "shortContent": "Use Trichoderma viride.",
+                            "title": "Biological Control with Trichoderma viride"
+                        }
                     }
                 },
-                "LeafMold": {
-                    "Description": "Leaf mold affects tomato leaves, causing yellow patches on upper surfaces and grayish mold on undersides.",
-                    "OrganicTreatment": {
-                        "longContent": "Apply sulfur-based fungicides or neem oil to control leaf mold. Ensure good air circulation to reduce moisture.",
-                        "shortContent": "Use sulfur or neem oil.",
-                        "title": "Sulfur Treatments for Leaf Mold"
-                    },
-                    "ConventionalTreatment": {
-                        "longContent": "Use chlorothalonil fungicides to prevent mold spread. Follow application guidelines for best results.",
-                        "shortContent": "Apply chlorothalonil.",
-                        "title": "Chlorothalonil for Leaf Mold"
-                    },
-                    "BiologicalTreatment": {
-                        "longContent": "Use Bacillus amyloliquefaciens to inhibit leaf mold fungi and improve plant resistance.",
-                        "shortContent": "Use Bacillus amyloliquefaciens.",
-                        "title": "Biological Control with Bacillus amyloliquefaciens"
+                {
+                    "LeafMold": {
+                        "Description": "Leaf mold affects tomato leaves, causing yellow patches on upper surfaces and grayish mold on undersides.",
+                        "OrganicTreatment": {
+                            "longContent": "Apply sulfur-based fungicides or neem oil to control leaf mold. Ensure good air circulation to reduce moisture.",
+                            "shortContent": "Use sulfur or neem oil.",
+                            "title": "Sulfur Treatments for Leaf Mold"
+                        },
+                        "ConventionalTreatment": {
+                            "longContent": "Use chlorothalonil fungicides to prevent mold spread. Follow application guidelines for best results.",
+                            "shortContent": "Apply chlorothalonil.",
+                            "title": "Chlorothalonil for Leaf Mold"
+                        },
+                        "BiologicalTreatment": {
+                            "longContent": "Use Bacillus amyloliquefaciens to inhibit leaf mold fungi and improve plant resistance.",
+                            "shortContent": "Use Bacillus amyloliquefaciens.",
+                            "title": "Biological Control with Bacillus amyloliquefaciens"
+                        }
                     }
                 },
-                "SeptoriaLeafSpot": {
-                    "Description": "Septoria leaf spot causes small, dark spots on leaves, often leading to yellowing and leaf drop.",
-                    "OrganicTreatment": {
-                        "longContent": "Apply copper fungicides or neem oil to slow down Septoria spread. Ensure crop rotation for long-term management.",
-                        "shortContent": "Use copper or neem oil.",
-                        "title": "Copper Fungicides for Septoria"
-                    },
-                    "ConventionalTreatment": {
-                        "longContent": "Use chlorothalonil or mancozeb fungicides to control Septoria spread effectively.",
-                        "shortContent": "Apply chlorothalonil or mancozeb.",
-                        "title": "Chlorothalonil for Septoria"
-                    },
-                    "BiologicalTreatment": {
-                        "longContent": "Apply Trichoderma spp. to control fungal pathogens like Septoria in soil and on plant foliage.",
-                        "shortContent": "Use Trichoderma.",
-                        "title": "Biological Control with Trichoderma spp."
+                {
+                    "SeptoriaLeafSpot": {
+                        "Description": "Septoria leaf spot causes small, dark spots on leaves, often leading to yellowing and leaf drop.",
+                        "OrganicTreatment": {
+                            "longContent": "Apply copper fungicides or neem oil to slow down Septoria spread. Ensure crop rotation for long-term management.",
+                            "shortContent": "Use copper or neem oil.",
+                            "title": "Copper Fungicides for Septoria"
+                        },
+                        "ConventionalTreatment": {
+                            "longContent": "Use chlorothalonil or mancozeb fungicides to control Septoria spread effectively.",
+                            "shortContent": "Apply chlorothalonil or mancozeb.",
+                            "title": "Chlorothalonil for Septoria"
+                        },
+                        "BiologicalTreatment": {
+                            "longContent": "Apply Trichoderma spp. to control fungal pathogens like Septoria in soil and on plant foliage.",
+                            "shortContent": "Use Trichoderma.",
+                            "title": "Biological Control with Trichoderma spp."
+                        }
                     }
                 },
-                "SpiderMites_TwoSpottedSpiderMite": {
-                    "Description": "Two-spotted spider mites feed on tomato leaves, causing stippling and yellowing, and reducing photosynthesis.",
-                    "OrganicTreatment": {
-                        "longContent": "Spray insecticidal soap or neem oil to control mite populations. Increase humidity to deter mites.",
-                        "shortContent": "Use insecticidal soap or neem oil.",
-                        "title": "Neem Oil for Spider Mites"
-                    },
-                    "ConventionalTreatment": {
-                        "longContent": "Apply miticides like abamectin as per label instructions. Rotate products to prevent resistance.",
-                        "shortContent": "Use abamectin miticides.",
-                        "title": "Abamectin for Spider Mites"
-                    },
-                    "BiologicalTreatment": {
-                        "longContent": "Introduce predatory mites like Phytoseiulus persimilis to control two-spotted spider mites.",
-                        "shortContent": "Use predatory mites.",
-                        "title": "Biological Control with Phytoseiulus"
+                {
+                    "SpiderMites_TwoSpottedSpiderMite": {
+                        "Description": "Two-spotted spider mites feed on tomato leaves, causing stippling and yellowing, and reducing photosynthesis.",
+                        "OrganicTreatment": {
+                            "longContent": "Spray insecticidal soap or neem oil to control mite populations. Increase humidity to deter mites.",
+                            "shortContent": "Use insecticidal soap or neem oil.",
+                            "title": "Neem Oil for Spider Mites"
+                        },
+                        "ConventionalTreatment": {
+                            "longContent": "Apply miticides like abamectin as per label instructions. Rotate products to prevent resistance.",
+                            "shortContent": "Use abamectin miticides.",
+                            "title": "Abamectin for Spider Mites"
+                        },
+                        "BiologicalTreatment": {
+                            "longContent": "Introduce predatory mites like Phytoseiulus persimilis to control two-spotted spider mites.",
+                            "shortContent": "Use predatory mites.",
+                            "title": "Biological Control with Phytoseiulus"
+                        }
                     }
                 },
-                "TargetSpot": {
-                    "Description": "Target spot causes circular lesions on leaves and stems, leading to defoliation and fruit damage.",
-                    "OrganicTreatment": {
-                        "longContent": "Apply copper or sulfur-based fungicides to reduce target spot infection.",
-                        "shortContent": "Use copper or sulfur fungicides.",
-                        "title": "Copper for Target Spot"
-                    },
-                    "ConventionalTreatment": {
-                        "longContent": "Use azoxystrobin fungicides for effective target spot control.",
-                        "shortContent": "Use azoxystrobin.",
-                        "title": "Azoxystrobin for Target Spot"
-                    },
-                    "BiologicalTreatment": {
-                        "longContent": "Introduce Trichoderma harzianum to control fungal infections like target spot.",
-                        "shortContent": "Use Trichoderma.",
-                        "title": "Biological Control with Trichoderma harzianum"
+                {
+                    "TargetSpot": {
+                        "Description": "Target spot causes circular lesions on leaves and stems, leading to defoliation and fruit damage.",
+                        "OrganicTreatment": {
+                            "longContent": "Apply copper or sulfur-based fungicides to reduce target spot infection.",
+                            "shortContent": "Use copper or sulfur fungicides.",
+                            "title": "Copper for Target Spot"
+                        },
+                        "ConventionalTreatment": {
+                            "longContent": "Use azoxystrobin fungicides for effective target spot control.",
+                            "shortContent": "Use azoxystrobin.",
+                            "title": "Azoxystrobin for Target Spot"
+                        },
+                        "BiologicalTreatment": {
+                            "longContent": "Introduce Trichoderma harzianum to control fungal infections like target spot.",
+                            "shortContent": "Use Trichoderma.",
+                            "title": "Biological Control with Trichoderma harzianum"
+                        }
                     }
                 },
-                "TomatoMosaicVirus": {
-                    "Description": "Tomato mosaic virus causes mottled leaves and stunted growth in tomato plants.",
-                    "OrganicTreatment": {
-                        "longContent": "Remove infected plants immediately. Use neem oil as a deterrent for insect vectors.",
-                        "shortContent": "Remove infected plants.",
-                        "title": "Removal and Neem Oil for Virus Control"
-                    },
-                    "ConventionalTreatment": {
-                        "longContent": "Sanitize tools and avoid handling plants too frequently. No chemical treatment available.",
-                        "shortContent": "Sanitize tools.",
-                        "title": "Tool Sanitization for Virus Management"
-                    },
-                    "BiologicalTreatment": {
-                        "longContent": "Introduce beneficial insects like ladybugs to reduce aphid populations that spread the virus.",
-                        "shortContent": "Use beneficial insects.",
-                        "title": "Biological Control with Ladybugs"
+                {
+                    "TomatoMosaicVirus": {
+                        "Description": "Tomato mosaic virus causes mottled leaves and stunted growth in tomato plants.",
+                        "OrganicTreatment": {
+                            "longContent": "Remove infected plants immediately. Use neem oil as a deterrent for insect vectors.",
+                            "shortContent": "Remove infected plants.",
+                            "title": "Removal and Neem Oil for Virus Control"
+                        },
+                        "ConventionalTreatment": {
+                            "longContent": "Sanitize tools and avoid handling plants too frequently. No chemical treatment available.",
+                            "shortContent": "Sanitize tools.",
+                            "title": "Tool Sanitization for Virus Management"
+                        },
+                        "BiologicalTreatment": {
+                            "longContent": "Introduce beneficial insects like ladybugs to reduce aphid populations that spread the virus.",
+                            "shortContent": "Use beneficial insects.",
+                            "title": "Biological Control with Ladybugs"
+                        }
                     }
                 },
-                "TomatoYellowLeafCurlVirus": {
-                    "Description": "This virus causes yellowing and curling of leaves, severely impacting growth and yield.",
-                    "OrganicTreatment": {
-                        "longContent": "Use reflective mulches to deter whiteflies, which spread the virus.",
-                        "shortContent": "Use reflective mulch.",
-                        "title": "Reflective Mulch for Virus Prevention"
-                    },
-                    "ConventionalTreatment": {
-                        "longContent": "Apply insecticides such as imidacloprid to control whitefly populations.",
-                        "shortContent": "Use imidacloprid for whiteflies.",
-                        "title": "Imidacloprid for Whitefly Control"
-                    },
-                    "BiologicalTreatment": {
-                        "longContent": "Release parasitic wasps like Encarsia formosa to control whiteflies.",
-                        "shortContent": "Use Encarsia formosa.",
-                        "title": "Biological Control with Encarsia"
+                {
+                    "TomatoYellowLeafCurlVirus": {
+                        "Description": "This virus causes yellowing and curling of leaves, severely impacting growth and yield.",
+                        "OrganicTreatment": {
+                            "longContent": "Use reflective mulches to deter whiteflies, which spread the virus.",
+                            "shortContent": "Use reflective mulch.",
+                            "title": "Reflective Mulch for Virus Prevention"
+                        },
+                        "ConventionalTreatment": {
+                            "longContent": "Apply insecticides such as imidacloprid to control whitefly populations.",
+                            "shortContent": "Use imidacloprid for whiteflies.",
+                            "title": "Imidacloprid for Whitefly Control"
+                        },
+                        "BiologicalTreatment": {
+                            "longContent": "Release parasitic wasps like Encarsia formosa to control whiteflies.",
+                            "shortContent": "Use Encarsia formosa.",
+                            "title": "Biological Control with Encarsia"
+                        }
                     }
                 }
-            },
+            ],
             "iconName": "Tomato",
             "serviceCode": "",
-            "vn": {
-                "BacterialSpot": {
-                    "Description": "Bệnh đốm vi khuẩn trên cà chua gây ra các đốm tối, ẩm ướt trên lá, thân và quả, làm giảm năng suất và sức khỏe cây trồng.",
-                    "OrganicTreatment": {
-                        "longContent": "Sử dụng các loại thuốc xịt gốc đồng để quản lý bệnh đốm vi khuẩn. Các thuốc xịt này giúp giảm sự lây lan của vi khuẩn và bảo vệ tán lá.",
-                        "shortContent": "Sử dụng thuốc xịt gốc đồng thường xuyên.",
-                        "title": "Thuốc Xịt Gốc Đồng cho Bệnh Đốm Vi Khuẩn"
-                    },
-                    "ConventionalTreatment": {
-                        "longContent": "Sử dụng thuốc diệt khuẩn có chứa các hợp chất đồng cố định. Áp dụng theo hướng dẫn để quản lý hiệu quả các bệnh nhiễm khuẩn.",
-                        "shortContent": "Áp dụng thuốc diệt khuẩn có chứa đồng.",
-                        "title": "Thuốc Diệt Khuẩn Có Chứa Đồng Cố Định"
-                    },
-                    "BiologicalTreatment": {
-                        "longContent": "Giới thiệu vi khuẩn có lợi như Bacillus subtilis để cạnh tranh với vi khuẩn gây bệnh đốm vi khuẩn.",
-                        "shortContent": "Sử dụng Bacillus subtilis để kiểm soát.",
-                        "title": "Kiểm Soát Sinh Học Với Bacillus subtilis"
+            "vn": [
+                {
+                    "BacterialSpot": {
+                        "Description": "Bệnh đốm vi khuẩn trên cà chua gây ra các đốm tối, ẩm ướt trên lá, thân và quả, làm giảm năng suất và sức khỏe cây trồng.",
+                        "OrganicTreatment": {
+                            "longContent": "Sử dụng các loại thuốc xịt gốc đồng để quản lý bệnh đốm vi khuẩn. Các thuốc xịt này giúp giảm sự lây lan của vi khuẩn và bảo vệ tán lá.",
+                            "shortContent": "Sử dụng thuốc xịt gốc đồng thường xuyên.",
+                            "title": "Thuốc Xịt Gốc Đồng cho Bệnh Đốm Vi Khuẩn"
+                        },
+                        "ConventionalTreatment": {
+                            "longContent": "Sử dụng thuốc diệt khuẩn có chứa các hợp chất đồng cố định. Áp dụng theo hướng dẫn để quản lý hiệu quả các bệnh nhiễm khuẩn.",
+                            "shortContent": "Áp dụng thuốc diệt khuẩn có chứa đồng.",
+                            "title": "Thuốc Diệt Khuẩn Có Chứa Đồng Cố Định"
+                        },
+                        "BiologicalTreatment": {
+                            "longContent": "Giới thiệu vi khuẩn có lợi như Bacillus subtilis để cạnh tranh với vi khuẩn gây bệnh đốm vi khuẩn.",
+                            "shortContent": "Sử dụng Bacillus subtilis để kiểm soát.",
+                            "title": "Kiểm Soát Sinh Học Với Bacillus subtilis"
+                        }
                     }
                 },
-                "EarlyBlight": {
-                    "Description": "Bệnh sớm trên cà chua gây ra các vòng tròn trên lá và thân cây, dẫn đến rụng lá và giảm năng suất.",
-                    "OrganicTreatment": {
-                        "longContent": "Sử dụng dầu neem hoặc thuốc diệt nấm chứa lưu huỳnh sớm trong mùa để ngăn ngừa bệnh sớm. Phủ đất có thể giảm sự chuyển giao của mầm bệnh từ đất lên cây.",
-                        "shortContent": "Sử dụng dầu neem hoặc thuốc diệt nấm lưu huỳnh.",
-                        "title": "Dầu Neem cho Bệnh Sớm"
-                    },
-                    "ConventionalTreatment": {
-                        "longContent": "Sử dụng thuốc diệt nấm có chứa chlorothalonil hoặc mancozeb, đặc biệt là trong điều kiện ẩm ướt, để ngăn ngừa sự lây lan của bệnh sớm.",
-                        "shortContent": "Áp dụng thuốc diệt nấm chlorothalonil.",
-                        "title": "Thuốc Diệt Nấm Dựa trên Chlorothalonil"
-                    },
-                    "BiologicalTreatment": {
-                        "longContent": "Sử dụng Trichoderma harzianum cho đất hoặc tán lá để giảm bệnh sớm bằng cách ức chế các mầm bệnh nấm.",
-                        "shortContent": "Sử dụng Trichoderma để kiểm soát bệnh.",
-                        "title": "Kiểm Soát Sinh Học với Trichoderma"
+                {
+                    "EarlyBlight": {
+                        "Description": "Bệnh sớm trên cà chua gây ra các vòng tròn trên lá và thân cây, dẫn đến rụng lá và giảm năng suất.",
+                        "OrganicTreatment": {
+                            "longContent": "Sử dụng dầu neem hoặc thuốc diệt nấm chứa lưu huỳnh sớm trong mùa để ngăn ngừa bệnh sớm. Phủ đất có thể giảm sự chuyển giao của mầm bệnh từ đất lên cây.",
+                            "shortContent": "Sử dụng dầu neem hoặc thuốc diệt nấm lưu huỳnh.",
+                            "title": "Dầu Neem cho Bệnh Sớm"
+                        },
+                        "ConventionalTreatment": {
+                            "longContent": "Sử dụng thuốc diệt nấm có chứa chlorothalonil hoặc mancozeb, đặc biệt là trong điều kiện ẩm ướt, để ngăn ngừa sự lây lan của bệnh sớm.",
+                            "shortContent": "Áp dụng thuốc diệt nấm chlorothalonil.",
+                            "title": "Thuốc Diệt Nấm Dựa trên Chlorothalonil"
+                        },
+                        "BiologicalTreatment": {
+                            "longContent": "Sử dụng Trichoderma harzianum cho đất hoặc tán lá để giảm bệnh sớm bằng cách ức chế các mầm bệnh nấm.",
+                            "shortContent": "Sử dụng Trichoderma để kiểm soát bệnh.",
+                            "title": "Kiểm Soát Sinh Học với Trichoderma"
+                        }
                     }
                 },
-                "LateBlight": {
-                    "Description": "Bệnh late blight gây ra các đốm tối, ẩm ướt trên lá và thân, lây lan nhanh trong điều kiện mát mẻ và ẩm ướt.",
-                    "OrganicTreatment": {
-                        "longContent": "Thuốc xịt gốc đồng giúp kiểm soát giai đoạn đầu của bệnh late blight. Áp dụng thường xuyên trong thời tiết mát mẻ, ẩm ướt.",
-                        "shortContent": "Sử dụng thuốc xịt gốc đồng.",
-                        "title": "Thuốc Xịt Gốc Đồng cho Bệnh Late Blight"
-                    },
-                    "ConventionalTreatment": {
-                        "longContent": "Sử dụng thuốc diệt nấm hệ thống có chứa metalaxyl hoặc chlorothalonil. Tuân theo hướng dẫn trên nhãn.",
-                        "shortContent": "Áp dụng thuốc diệt nấm metalaxyl.",
-                        "title": "Metalaxyl cho Kiểm Soát Bệnh Late Blight"
-                    },
-                    "BiologicalTreatment": {
-                        "longContent": "Giới thiệu nấm có lợi như Trichoderma viride để giảm hoạt động của mầm bệnh và bảo vệ cây trồng.",
-                        "shortContent": "Sử dụng Trichoderma viride.",
-                        "title": "Kiểm Soát Sinh Học với Trichoderma viride"
+                {
+                    "LateBlight": {
+                        "Description": "Bệnh late blight gây ra các đốm tối, ẩm ướt trên lá và thân, lây lan nhanh trong điều kiện mát mẻ và ẩm ướt.",
+                        "OrganicTreatment": {
+                            "longContent": "Thuốc xịt gốc đồng giúp kiểm soát giai đoạn đầu của bệnh late blight. Áp dụng thường xuyên trong thời tiết mát mẻ, ẩm ướt.",
+                            "shortContent": "Sử dụng thuốc xịt gốc đồng.",
+                            "title": "Thuốc Xịt Gốc Đồng cho Bệnh Late Blight"
+                        },
+                        "ConventionalTreatment": {
+                            "longContent": "Sử dụng thuốc diệt nấm hệ thống có chứa metalaxyl hoặc chlorothalonil. Tuân theo hướng dẫn trên nhãn.",
+                            "shortContent": "Áp dụng thuốc diệt nấm metalaxyl.",
+                            "title": "Metalaxyl cho Kiểm Soát Bệnh Late Blight"
+                        },
+                        "BiologicalTreatment": {
+                            "longContent": "Giới thiệu nấm có lợi như Trichoderma viride để giảm hoạt động của mầm bệnh và bảo vệ cây trồng.",
+                            "shortContent": "Sử dụng Trichoderma viride.",
+                            "title": "Kiểm Soát Sinh Học với Trichoderma viride"
+                        }
                     }
                 },
-                "LeafMold": {
-                    "Description": "Bệnh mốc lá gây ảnh hưởng đến lá cà chua, tạo thành các đốm vàng trên bề mặt trên và mốc xám ở mặt dưới.",
-                    "OrganicTreatment": {
-                        "longContent": "Áp dụng thuốc diệt nấm chứa lưu huỳnh hoặc dầu neem để kiểm soát bệnh mốc lá. Đảm bảo không gian thông thoáng để giảm độ ẩm.",
-                        "shortContent": "Sử dụng lưu huỳnh hoặc dầu neem.",
-                        "title": "Điều Trị Mốc Lá với Lưu Huỳnh"
-                    },
-                    "ConventionalTreatment": {
-                        "longContent": "Sử dụng thuốc diệt nấm chlorothalonil để ngăn ngừa sự lây lan của mốc. Tuân theo hướng dẫn áp dụng để đạt hiệu quả tốt nhất.",
-                        "shortContent": "Áp dụng thuốc diệt nấm chlorothalonil.",
-                        "title": "Chlorothalonil cho Mốc Lá"
-                    },
-                    "BiologicalTreatment": {
-                        "longContent": "Sử dụng Bacillus amyloliquefaciens để ức chế nấm gây mốc lá và cải thiện khả năng kháng bệnh của cây.",
-                        "shortContent": "Sử dụng Bacillus amyloliquefaciens.",
-                        "title": "Kiểm Soát Sinh Học với Bacillus amyloliquefaciens"
+                {
+                    "LeafMold": {
+                        "Description": "Bệnh mốc lá gây ảnh hưởng đến lá cà chua, tạo thành các đốm vàng trên bề mặt trên và mốc xám ở mặt dưới.",
+                        "OrganicTreatment": {
+                            "longContent": "Áp dụng thuốc diệt nấm chứa lưu huỳnh hoặc dầu neem để kiểm soát bệnh mốc lá. Đảm bảo không gian thông thoáng để giảm độ ẩm.",
+                            "shortContent": "Sử dụng lưu huỳnh hoặc dầu neem.",
+                            "title": "Điều Trị Mốc Lá với Lưu Huỳnh"
+                        },
+                        "ConventionalTreatment": {
+                            "longContent": "Sử dụng thuốc diệt nấm chlorothalonil để ngăn ngừa sự lây lan của mốc. Tuân theo hướng dẫn áp dụng để đạt hiệu quả tốt nhất.",
+                            "shortContent": "Áp dụng thuốc diệt nấm chlorothalonil.",
+                            "title": "Chlorothalonil cho Mốc Lá"
+                        },
+                        "BiologicalTreatment": {
+                            "longContent": "Sử dụng Bacillus amyloliquefaciens để ức chế nấm gây mốc lá và cải thiện khả năng kháng bệnh của cây.",
+                            "shortContent": "Sử dụng Bacillus amyloliquefaciens.",
+                            "title": "Kiểm Soát Sinh Học với Bacillus amyloliquefaciens"
+                        }
                     }
                 },
-                "SeptoriaLeafSpot": {
-                    "Description": "Bệnh đốm lá Septoria gây ra các đốm tối nhỏ trên lá, thường dẫn đến lá vàng và rụng.",
-                    "OrganicTreatment": {
-                        "longContent": "Áp dụng thuốc diệt nấm gốc đồng hoặc dầu neem để làm chậm sự lây lan của bệnh Septoria. Đảm bảo luân canh cây trồng để quản lý lâu dài.",
-                        "shortContent": "Sử dụng thuốc diệt nấm gốc đồng hoặc dầu neem.",
-                        "title": "Thuốc Diệt Nấm Gốc Đồng cho Bệnh Septoria"
-                    },
-                    "ConventionalTreatment": {
-                        "longContent": "Sử dụng thuốc diệt nấm chlorothalonil hoặc mancozeb để kiểm soát sự lây lan của bệnh Septoria hiệu quả.",
-                        "shortContent": "Áp dụng chlorothalonil hoặc mancozeb.",
-                        "title": "Chlorothalonil cho Bệnh Septoria"
-                    },
-                    "BiologicalTreatment": {
-                        "longContent": "Áp dụng Trichoderma spp. để kiểm soát các mầm bệnh nấm như Septoria trong đất và trên tán lá.",
-                        "shortContent": "Sử dụng Trichoderma.",
-                        "title": "Kiểm Soát Sinh Học với Trichoderma spp."
+                {
+                    "SeptoriaLeafSpot": {
+                        "Description": "Bệnh đốm lá Septoria gây ra các đốm tối nhỏ trên lá, thường dẫn đến lá vàng và rụng.",
+                        "OrganicTreatment": {
+                            "longContent": "Áp dụng thuốc diệt nấm gốc đồng hoặc dầu neem để làm chậm sự lây lan của bệnh Septoria. Đảm bảo luân canh cây trồng để quản lý lâu dài.",
+                            "shortContent": "Sử dụng thuốc diệt nấm gốc đồng hoặc dầu neem.",
+                            "title": "Thuốc Diệt Nấm Gốc Đồng cho Bệnh Septoria"
+                        },
+                        "ConventionalTreatment": {
+                            "longContent": "Sử dụng thuốc diệt nấm chlorothalonil hoặc mancozeb để kiểm soát sự lây lan của bệnh Septoria hiệu quả.",
+                            "shortContent": "Áp dụng chlorothalonil hoặc mancozeb.",
+                            "title": "Chlorothalonil cho Bệnh Septoria"
+                        },
+                        "BiologicalTreatment": {
+                            "longContent": "Áp dụng Trichoderma spp. để kiểm soát các mầm bệnh nấm như Septoria trong đất và trên tán lá.",
+                            "shortContent": "Sử dụng Trichoderma.",
+                            "title": "Kiểm Soát Sinh Học với Trichoderma spp."
+                        }
                     }
                 },
-                "SpiderMites_TwoSpottedSpiderMite": {
-                    "Description": "Nhện đỏ hai đốm ăn lá cà chua, gây ra hiện tượng chấm nhỏ và vàng lá, làm giảm quá trình quang hợp.",
-                    "OrganicTreatment": {
-                        "longContent": "Phun xịt xà phòng diệt côn trùng hoặc dầu neem để kiểm soát quần thể nhện. Tăng độ ẩm để ngăn chặn nhện.",
-                        "shortContent": "Sử dụng xà phòng diệt côn trùng hoặc dầu neem.",
-                        "title": "Dầu Neem cho Nhện Đỏ"
-                    },
-                    "ConventionalTreatment": {
-                        "longContent": "Áp dụng thuốc diệt nhện như abamectin theo hướng dẫn trên nhãn. Luân phiên sản phẩm để ngăn ngừa kháng thuốc.",
-                        "shortContent": "Sử dụng thuốc diệt nhện abamectin.",
-                        "title": "Abamectin cho Nhện Đỏ"
-                    },
-                    "BiologicalTreatment": {
-                        "longContent": "Giới thiệu các loài nhện ăn thịt như Phytoseiulus persimilis để kiểm soát nhện đỏ hai đốm.",
-                        "shortContent": "Sử dụng nhện ăn thịt.",
-                        "title": "Kiểm Soát Sinh Học với Phytoseiulus"
+                {
+                    "SpiderMites_TwoSpottedSpiderMite": {
+                        "Description": "Nhện đỏ hai đốm ăn lá cà chua, gây ra hiện tượng chấm nhỏ và vàng lá, làm giảm quá trình quang hợp.",
+                        "OrganicTreatment": {
+                            "longContent": "Phun xịt xà phòng diệt côn trùng hoặc dầu neem để kiểm soát quần thể nhện. Tăng độ ẩm để ngăn chặn nhện.",
+                            "shortContent": "Sử dụng xà phòng diệt côn trùng hoặc dầu neem.",
+                            "title": "Dầu Neem cho Nhện Đỏ"
+                        },
+                        "ConventionalTreatment": {
+                            "longContent": "Áp dụng thuốc diệt nhện như abamectin theo hướng dẫn trên nhãn. Luân phiên sản phẩm để ngăn ngừa kháng thuốc.",
+                            "shortContent": "Sử dụng thuốc diệt nhện abamectin.",
+                            "title": "Abamectin cho Nhện Đỏ"
+                        },
+                        "BiologicalTreatment": {
+                            "longContent": "Giới thiệu các loài nhện ăn thịt như Phytoseiulus persimilis để kiểm soát nhện đỏ hai đốm.",
+                            "shortContent": "Sử dụng nhện ăn thịt.",
+                            "title": "Kiểm Soát Sinh Học với Phytoseiulus"
+                        }
                     }
                 },
-                "TargetSpot": {
-                    "Description": "Bệnh đốm mục tiêu gây ra các vết loét hình tròn trên lá và thân, dẫn đến rụng lá và hư hỏng quả.",
-                    "OrganicTreatment": {
-                        "longContent": "Áp dụng thuốc diệt nấm gốc đồng hoặc lưu huỳnh để giảm nhiễm bệnh đốm mục tiêu.",
-                        "shortContent": "Sử dụng thuốc diệt nấm gốc đồng hoặc lưu huỳnh.",
-                        "title": "Thuốc Gốc Đồng cho Bệnh Đốm Mục Tiêu"
-                    },
-                    "ConventionalTreatment": {
-                        "longContent": "Sử dụng thuốc diệt nấm azoxystrobin để kiểm soát hiệu quả bệnh đốm mục tiêu.",
-                        "shortContent": "Sử dụng azoxystrobin.",
-                        "title": "Azoxystrobin cho Bệnh Đốm Mục Tiêu"
-                    },
-                    "BiologicalTreatment": {
-                        "longContent": "Giới thiệu Trichoderma harzianum để kiểm soát các bệnh nấm như đốm mục tiêu.",
-                        "shortContent": "Sử dụng Trichoderma.",
-                        "title": "Kiểm Soát Sinh Học với Trichoderma harzianum"
+                {
+                    "TargetSpot": {
+                        "Description": "Bệnh đốm mục tiêu gây ra các vết loét hình tròn trên lá và thân, dẫn đến rụng lá và hư hỏng quả.",
+                        "OrganicTreatment": {
+                            "longContent": "Áp dụng thuốc diệt nấm gốc đồng hoặc lưu huỳnh để giảm nhiễm bệnh đốm mục tiêu.",
+                            "shortContent": "Sử dụng thuốc diệt nấm gốc đồng hoặc lưu huỳnh.",
+                            "title": "Thuốc Gốc Đồng cho Bệnh Đốm Mục Tiêu"
+                        },
+                        "ConventionalTreatment": {
+                            "longContent": "Sử dụng thuốc diệt nấm azoxystrobin để kiểm soát hiệu quả bệnh đốm mục tiêu.",
+                            "shortContent": "Sử dụng azoxystrobin.",
+                            "title": "Azoxystrobin cho Bệnh Đốm Mục Tiêu"
+                        },
+                        "BiologicalTreatment": {
+                            "longContent": "Giới thiệu Trichoderma harzianum để kiểm soát các bệnh nấm như đốm mục tiêu.",
+                            "shortContent": "Sử dụng Trichoderma.",
+                            "title": "Kiểm Soát Sinh Học với Trichoderma harzianum"
+                        }
                     }
                 },
-                "TomatoMosaicVirus": {
-                    "Description": "Virus đốm mosaic cà chua gây ra hiện tượng lá bị loang lổ và cây còi cọc.",
-                    "OrganicTreatment": {
-                        "longContent": "Loại bỏ cây bị nhiễm bệnh ngay lập tức. Sử dụng dầu neem như một biện pháp phòng ngừa cho các vectơ côn trùng.",
-                        "shortContent": "Loại bỏ cây bị nhiễm bệnh.",
-                        "title": "Loại Bỏ Cây và Dầu Neem để Kiểm Soát Virus"
-                    },
-                    "ConventionalTreatment": {
-                        "longContent": "Vệ sinh dụng cụ và tránh tiếp xúc quá nhiều với cây. Không có biện pháp điều trị hóa học.",
-                        "shortContent": "Vệ sinh dụng cụ.",
-                        "title": "Vệ Sinh Dụng Cụ để Quản Lý Virus"
-                    },
-                    "BiologicalTreatment": {
-                        "longContent": "Giới thiệu các loài côn trùng có lợi như bọ rùa để giảm quần thể rệp gây lan truyền virus.",
-                        "shortContent": "Sử dụng côn trùng có lợi.",
-                        "title": "Kiểm Soát Sinh Học với Bọ Rùa"
+                {
+                    "TomatoMosaicVirus": {
+                        "Description": "Virus đốm mosaic cà chua gây ra hiện tượng lá bị loang lổ và cây còi cọc.",
+                        "OrganicTreatment": {
+                            "longContent": "Loại bỏ cây bị nhiễm bệnh ngay lập tức. Sử dụng dầu neem như một biện pháp phòng ngừa cho các vectơ côn trùng.",
+                            "shortContent": "Loại bỏ cây bị nhiễm bệnh.",
+                            "title": "Loại Bỏ Cây và Dầu Neem để Kiểm Soát Virus"
+                        },
+                        "ConventionalTreatment": {
+                            "longContent": "Vệ sinh dụng cụ và tránh tiếp xúc quá nhiều với cây. Không có biện pháp điều trị hóa học.",
+                            "shortContent": "Vệ sinh dụng cụ.",
+                            "title": "Vệ Sinh Dụng Cụ để Quản Lý Virus"
+                        },
+                        "BiologicalTreatment": {
+                            "longContent": "Giới thiệu các loài côn trùng có lợi như bọ rùa để giảm quần thể rệp gây lan truyền virus.",
+                            "shortContent": "Sử dụng côn trùng có lợi.",
+                            "title": "Kiểm Soát Sinh Học với Bọ Rùa"
+                        }
                     }
                 },
-                "TomatoYellowLeafCurlVirus": {
-                    "Description": "Virus này gây hiện tượng vàng và cuộn lá, ảnh hưởng nghiêm trọng đến sự phát triển và năng suất cây.",
-                    "OrganicTreatment": {
-                        "longContent": "Sử dụng màng phản chiếu để xua đuổi rệp vảy, loài côn trùng truyền bệnh.",
-                        "shortContent": "Sử dụng màng phản chiếu.",
-                        "title": "Màng Phản Chiếu để Phòng Ngừa Virus"
-                    },
-                    "ConventionalTreatment": {
-                        "longContent": "Áp dụng thuốc trừ sâu như imidacloprid để kiểm soát quần thể rệp vảy.",
-                        "shortContent": "Sử dụng imidacloprid để kiểm soát rệp vảy.",
-                        "title": "Imidacloprid cho Kiểm Soát Rệp Vảy"
-                    },
-                    "BiologicalTreatment": {
-                        "longContent": "Phóng thích các loài ong ký sinh như Encarsia formosa để kiểm soát rệp vảy.",
-                        "shortContent": "Sử dụng Encarsia formosa.",
-                        "title": "Kiểm Soát Sinh Học với Encarsia"
+                {
+                    "TomatoYellowLeafCurlVirus": {
+                        "Description": "Virus này gây hiện tượng vàng và cuộn lá, ảnh hưởng nghiêm trọng đến sự phát triển và năng suất cây.",
+                        "OrganicTreatment": {
+                            "longContent": "Sử dụng màng phản chiếu để xua đuổi rệp vảy, loài côn trùng truyền bệnh.",
+                            "shortContent": "Sử dụng màng phản chiếu.",
+                            "title": "Màng Phản Chiếu để Phòng Ngừa Virus"
+                        },
+                        "ConventionalTreatment": {
+                            "longContent": "Áp dụng thuốc trừ sâu như imidacloprid để kiểm soát quần thể rệp vảy.",
+                            "shortContent": "Sử dụng imidacloprid để kiểm soát rệp vảy.",
+                            "title": "Imidacloprid cho Kiểm Soát Rệp Vảy"
+                        },
+                        "BiologicalTreatment": {
+                            "longContent": "Phóng thích các loài ong ký sinh như Encarsia formosa để kiểm soát rệp vảy.",
+                            "shortContent": "Sử dụng Encarsia formosa.",
+                            "title": "Kiểm Soát Sinh Học với Encarsia"
+                        }
                     }
                 }
-            }
+            ]
         },
         {
             "category": "Potato",
-            "en": {
-                "EarlyBlight": {
-                    "Description": "Early blight causes brown lesions on potato leaves and stems, which expand in a circular pattern, reducing photosynthesis and yield.",
-                    "OrganicTreatment": {
-                        "longContent": "Spray potassium bicarbonate or compost tea to improve plant defenses against early blight infection.",
-                        "shortContent": "Use potassium bicarbonate spray.",
-                        "title": "Potassium Bicarbonate for Early Blight"
-                    },
-                    "ConventionalTreatment": {
-                        "longContent": "Use azoxystrobin or difenoconazole fungicides. Apply regularly during the growing season for optimal protection.",
-                        "shortContent": "Use azoxystrobin fungicides.",
-                        "title": "Azoxystrobin Fungicides"
-                    },
-                    "BiologicalTreatment": {
-                        "longContent": "Apply Pseudomonas fluorescens, a beneficial bacterium, to suppress early blight pathogens and promote plant health.",
-                        "shortContent": "Use Pseudomonas fluorescens.",
-                        "title": "Biological Control with Pseudomonas"
+            "en": [
+                {
+                    "EarlyBlight": {
+                        "Description": "Early blight causes brown lesions on potato leaves and stems, which expand in a circular pattern, reducing photosynthesis and yield.",
+                        "OrganicTreatment": {
+                            "longContent": "Spray potassium bicarbonate or compost tea to improve plant defenses against early blight infection.",
+                            "shortContent": "Use potassium bicarbonate spray.",
+                            "title": "Potassium Bicarbonate for Early Blight"
+                        },
+                        "ConventionalTreatment": {
+                            "longContent": "Use azoxystrobin or difenoconazole fungicides. Apply regularly during the growing season for optimal protection.",
+                            "shortContent": "Use azoxystrobin fungicides.",
+                            "title": "Azoxystrobin Fungicides"
+                        },
+                        "BiologicalTreatment": {
+                            "longContent": "Apply Pseudomonas fluorescens, a beneficial bacterium, to suppress early blight pathogens and promote plant health.",
+                            "shortContent": "Use Pseudomonas fluorescens.",
+                            "title": "Biological Control with Pseudomonas"
+                        }
                     }
                 },
-                "LateBlight": {
-                    "Description": "Late blight appears as dark, water-soaked spots on leaves and stems of potato plants, spreading rapidly in cool, wet conditions.",
-                    "OrganicTreatment": {
-                        "longContent": "Copper-based sprays can control early stages of late blight. Apply regularly, especially during wet weather.",
-                        "shortContent": "Use copper sprays early.",
-                        "title": "Copper Sprays for Late Blight"
-                    },
-                    "ConventionalTreatment": {
-                        "longContent": "Use systemic fungicides like metalaxyl or chlorothalonil to prevent late blight spread. Follow the application schedule closely.",
-                        "shortContent": "Apply metalaxyl fungicides.",
-                        "title": "Metalaxyl for Late Blight Control"
-                    },
-                    "BiologicalTreatment": {
-                        "longContent": "Apply Trichoderma viride to inhibit late blight pathogens and protect potato plants naturally.",
-                        "shortContent": "Use Trichoderma viride.",
-                        "title": "Biological Control with Trichoderma viride"
+                {
+                    "LateBlight": {
+                        "Description": "Late blight appears as dark, water-soaked spots on leaves and stems of potato plants, spreading rapidly in cool, wet conditions.",
+                        "OrganicTreatment": {
+                            "longContent": "Copper-based sprays can control early stages of late blight. Apply regularly, especially during wet weather.",
+                            "shortContent": "Use copper sprays early.",
+                            "title": "Copper Sprays for Late Blight"
+                        },
+                        "ConventionalTreatment": {
+                            "longContent": "Use systemic fungicides like metalaxyl or chlorothalonil to prevent late blight spread. Follow the application schedule closely.",
+                            "shortContent": "Apply metalaxyl fungicides.",
+                            "title": "Metalaxyl for Late Blight Control"
+                        },
+                        "BiologicalTreatment": {
+                            "longContent": "Apply Trichoderma viride to inhibit late blight pathogens and protect potato plants naturally.",
+                            "shortContent": "Use Trichoderma viride.",
+                            "title": "Biological Control with Trichoderma viride"
+                        }
                     }
                 }
-            },
+            ],
             "iconName": "Potato",
             "serviceCode": "",
-            "vn": {
-                "EarlyBlight": {
-                    "Description": "Bệnh mốc sớm gây ra các đốm nâu trên lá và thân khoai tây, mở rộng theo dạng vòng tròn, làm giảm quang hợp và năng suất.",
-                    "OrganicTreatment": {
-                        "longContent": "Phun kali bicarbonate hoặc trà ủ phân để tăng cường khả năng kháng bệnh mốc sớm cho cây.",
-                        "shortContent": "Dùng kali bicarbonate.",
-                        "title": "Kali bicarbonate cho bệnh mốc sớm"
-                    },
-                    "ConventionalTreatment": {
-                        "longContent": "Sử dụng thuốc trừ nấm chứa azoxystrobin hoặc difenoconazole, phun thường xuyên trong suốt mùa vụ.",
-                        "shortContent": "Dùng thuốc chứa azoxystrobin.",
-                        "title": "Azoxystrobin cho bệnh mốc sớm"
-                    },
+            "vn": [
+                {
+                    "EarlyBlight": {
+                        "Description": "Bệnh mốc sớm gây ra các đốm nâu trên lá và thân khoai tây, mở rộng theo dạng vòng tròn, làm giảm quang hợp và năng suất.",
+                        "OrganicTreatment": {
+                            "longContent": "Phun kali bicarbonate hoặc trà ủ phân để tăng cường khả năng kháng bệnh mốc sớm cho cây.",
+                            "shortContent": "Dùng kali bicarbonate.",
+                            "title": "Kali bicarbonate cho bệnh mốc sớm"
+                        },
+                        "ConventionalTreatment": {
+                            "longContent": "Sử dụng thuốc trừ nấm chứa azoxystrobin hoặc difenoconazole, phun thường xuyên trong suốt mùa vụ.",
+                            "shortContent": "Dùng thuốc chứa azoxystrobin.",
+                            "title": "Azoxystrobin cho bệnh mốc sớm"
+                        }
+                    }
+                },
+                {
                     "BiologicalTreatment": {
                         "longContent": "Sử dụng vi khuẩn có lợi như Pseudomonas fluorescens để ức chế tác nhân gây bệnh mốc sớm và tăng cường sức khỏe cây.",
                         "shortContent": "Dùng Pseudomonas fluorescens.",
                         "title": "Kiểm soát sinh học với Pseudomonas"
                     }
                 }
-            }
+            ]
         }
     ]
 }
