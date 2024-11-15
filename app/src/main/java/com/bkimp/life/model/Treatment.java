@@ -1,5 +1,6 @@
 package com.bkimp.life.model;
 
+import java.io.Serializable;
 import java.util.List;
 import java.util.Map;
 
@@ -52,7 +53,7 @@ import java.util.Map;
 //}
 
 
-public class Treatment {
+public class Treatment implements Serializable {
     private String title;
     private String shortContent;
     private String longContent;

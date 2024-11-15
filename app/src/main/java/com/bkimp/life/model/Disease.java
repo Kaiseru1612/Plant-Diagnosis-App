@@ -1,4 +1,7 @@
 package com.bkimp.life.model;
+
+import java.io.Serializable;
+
 //public class Disease {
 //    public String getDescription() {
 //        return Description;
@@ -86,7 +89,7 @@ package com.bkimp.life.model;
 //    }
 //}
 //
-public class Disease {
+public class Disease implements Serializable {
     private String Description;
     private Treatment OrganicTreatment;
     private Treatment ConventionalTreatment;

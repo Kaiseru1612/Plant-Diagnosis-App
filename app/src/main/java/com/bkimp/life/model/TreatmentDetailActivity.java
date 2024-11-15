@@ -159,6 +159,13 @@ public class TreatmentDetailActivity extends AppCompatActivity {
                     // Create and set the adapter with the data
                     TreatmentAdapter adapter = new TreatmentAdapter(diseasesList);
                     recyclerView.setAdapter(adapter);
+
+                    adapter.setOnItemClickListener((diseaseName, disease) -> {
+                        Intent intent = new Intent(this, DiseaseDetailActivity.class);
+                        intent.putExtra("diseaseName", diseaseName);
+                        intent.putExtra("disease", disease); // Disease must implement Serializable or Parcelable
+                        startActivity(intent);
+                    });
                 } else {
                     Log.e("TreatmentDetailActivity", "Diseases list is empty or null");
                     Toast.makeText(this, "No diseases data available", Toast.LENGTH_SHORT).show();
@@ -172,6 +179,7 @@ public class TreatmentDetailActivity extends AppCompatActivity {
             Toast.makeText(this, "No treatment data available", Toast.LENGTH_SHORT).show();
         }
     }
+
 }
 
 

@@ -17,6 +17,13 @@ public class TreatmentAdapter extends RecyclerView.Adapter<TreatmentAdapter.View
     private static final String TAG = "TreatmentAdapter";
     private List<Map<String, Disease>> diseasesList;
 
+    private OnItemClickListener onItemClickListener;
+
+    public void setOnItemClickListener(OnItemClickListener listener) {
+        this.onItemClickListener = listener;
+    }
+
+
     public TreatmentAdapter(List<Map<String, Disease>> diseasesList) {
         this.diseasesList = diseasesList;
     }
@@ -42,6 +49,12 @@ public class TreatmentAdapter extends RecyclerView.Adapter<TreatmentAdapter.View
             holder.diseaseNameTextView.setText(diseaseName);
             holder.diseaseDescriptionTextView.setText(disease.getDescription());
             // Add other fields as necessary
+            holder.itemView.setOnClickListener(v -> {
+                // Pass the disease object to the listener
+                if (onItemClickListener != null) {
+                    onItemClickListener.onItemClick(diseaseName, disease);
+                }
+            });
         }
     }
 

@@ -40,6 +40,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".model.TreatmentDetailActivity" />
+        <activity android:name=".model.DiseaseDetailActivity" />
     </application>
 
 </manifest>
