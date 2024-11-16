@@ -90,6 +90,7 @@ import java.io.Serializable;
 //}
 //
 public class Disease implements Serializable {
+
     private String Description;
     private Treatment OrganicTreatment;
     private Treatment ConventionalTreatment;

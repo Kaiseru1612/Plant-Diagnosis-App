@@ -6,39 +6,34 @@
     android:orientation="vertical"
     android:padding="16dp">
 
+    <!-- Disease Name TextView -->
     <TextView
         android:id="@+id/diseaseNameTextView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
+        android:text="Disease Name"
         android:textStyle="bold"
-        android:text="Disease Name" />
+        android:textSize="20sp"
+        android:gravity="center"
+        android:padding="8dp" />
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:flipInterval="3000"
+    android:inAnimation="@android:anim/fade_in"
+    android:outAnimation="@android:anim/fade_out">
+    </ViewFlipper>
 
     <TextView
-        android:id="@+id/diseaseDescriptionTextView"
+        android:id="@+id/DiseaseDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Description" />
+        android:textSize="16sp" />
 
-    <TextView
-        android:id="@+id/organicTreatmentTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Organic Treatment" />
-
-    <TextView
-        android:id="@+id/conventionalTreatmentTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Conventional Treatment" />
-
-    <TextView
-        android:id="@+id/biologicalTreatmentTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Biological Treatment" />
+    <ExpandableListView
+    android:id="@+id/expandableListView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
 </LinearLayout>

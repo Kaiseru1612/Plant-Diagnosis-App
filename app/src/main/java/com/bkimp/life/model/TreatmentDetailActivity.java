@@ -147,7 +147,6 @@ public class TreatmentDetailActivity extends AppCompatActivity {
 
         // Get the JSON data from the Intent
         String json = getIntent().getStringExtra("enTreatments");
-
         if (json != null && !json.isEmpty()) {
             try {
                 // Deserialize JSON into List<Map<String, Disease>>
@@ -163,7 +162,8 @@ public class TreatmentDetailActivity extends AppCompatActivity {
                     adapter.setOnItemClickListener((diseaseName, disease) -> {
                         Intent intent = new Intent(this, DiseaseDetailActivity.class);
                         intent.putExtra("diseaseName", diseaseName);
-                        intent.putExtra("disease", disease); // Disease must implement Serializable or Parcelable
+                        intent.putExtra("disease", disease);
+                        intent.putExtra("category", getIntent().getStringExtra("category"));
                         startActivity(intent);
                     });
                 } else {

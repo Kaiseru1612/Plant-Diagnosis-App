@@ -1,0 +1,10 @@
+Tomato___BacterialSpot
+Tomato___EarlyBlight
+Tomato___Healthy
+Tomato___LateBlight
+Tomato___LeafMold
+Tomato___SeptoriaLeafSpot
+Tomato___SpiderMites
+Tomato___TargetSpot
+Tomato___MosaicVirus
+Tomato___YellowLeafCurlVirus
